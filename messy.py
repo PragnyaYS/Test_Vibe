@@ -1,14 +1,15 @@
-# [Auto Updated] Function to process a list of numbers by applying specific transformations
 def process(a):
+    """
+    Function to process a list of numbers by applying specific transformations.
+    Numbers greater than 10 are multiplied by 2, while numbers less than or equal to 10 have 5 added to them.
+    """
     b = []
-    # [Auto Updated] Loop through the input list and apply transformations based on conditions
     for i in a:
         if i > 10:
-            b.append(i * 2)  # [Auto Updated] Multiply numbers greater than 10 by 2
+            b.append(i * 2)  # [Auto Updated] Multiply numbers greater than 10 by 2.
         else:
-            b.append(i + 5)  # [Auto Updated] Add 5 to numbers less than or equal to 10
+            b.append(i + 5)  # [Auto Updated] Add 5 to numbers less than or equal to 10.
     return b
 
-# [Auto Updated] Updated example list of numbers to demonstrate the process function with new values
-nums = [5, 12, 18, 30, 28, 20]
-print(process(nums))  # [Auto Updated] Print the processed list of numbers after applying transformations
+nums = [5, 12, 8, 20]  # [Auto Updated] Updated example list of numbers to demonstrate the process function.
+print(process(nums))  # [Auto Updated] Print the processed list of numbers after applying transformations.
