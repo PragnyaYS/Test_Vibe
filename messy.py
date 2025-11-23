@@ -11,5 +11,5 @@ def process(a):
             b.append(i + 5)  # [Auto Updated] Add 5 to numbers less than or equal to 10.
     return b
 
-nums = [5, 12, 8, 20]  # [Auto Updated] Updated example list of numbers to demonstrate the process function.
+nums = [5, 12, 18, 5, 68, 20]  # [Auto Updated] Updated example list of numbers to demonstrate the process function.
 print(process(nums))  # [Auto Updated] Print the processed list of numbers after applying transformations.
